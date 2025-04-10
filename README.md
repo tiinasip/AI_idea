@@ -6,7 +6,7 @@ Final project for the Building AI course
 ## Summary
 A camera is capturing a conveyor belt in real-time. The viewer sees more information about the products and also the AI's forecast, what's coming next. Of course the forecast is often wrong, but AI is learning and viewer sees from the screen statistics how it learns. 
 
-The idea combines slow TV and AI. It is oddly relaxing just to watch products moving on the belt, as described here [Livelähetys Prisman kassahihnalta nousi hitisi](https://www.is.fi/viihde/art-2000005268226.html). On the other hand, AI is a hot topic, but not many understand how it works. 
+The idea combines slow TV and AI. It is oddly relaxing just to watch products moving on the belt, as described here [Livelähetys Prisman kassahihnalta nousi hitiksi](https://www.is.fi/viihde/art-2000005268226.html). On the other hand, AI is a hot topic, but not many understand how it works. 
 
 If developed further, viewers could make own suggestions for better forecast methods and also compete against AI with their own guesses. 
 
