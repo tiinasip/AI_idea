@@ -74,12 +74,48 @@ def guess_next(previous_item):
 
 ## Data sources and AI methods
 
-Stream live footage feeds frames to the AI model. The camera is capturing from above or the side. Then AI detects items and updates an item list. AI method is to use pre-trained models (probablyd YOLO (You Only Look Once, but also Detectron2, or OpenAI’s CLIP combined with image recognition are possible). When a new item appears, the AI guesses what comes next. For prediction a statistical model (e.g. Markov chains) or a small neural net (if more data is available).
-
-* All runs on a livestream or recorded video (e.g. OBS + Python backend)
+Stream live footage feeds frames to the AI model. The webcam is capturing products from above or the side. Then AI detects items and updates an item list. AI method to be used in detecting is pre-trained models (probably YOLO (You Only Look Once, but also Detectron2, or OpenAI’s CLIP combined with image recognition are possible). When a new item appears, the AI guesses what comes next. For prediction a statistical model (e.g. Markov chains) or a small neural net (if more data is available) is used. All runs on a livestream or recorded video (frontend dispaly is Streamlit, Flask or OBS + Python backend)
 
 YOLO (You Only Look Once) is a fast and accurate real-time object detection, and it is used for live streams or low-latency apps. Models are YOLOv5, YOLOv8 and probably using Ultralytics version to be easier.
 
+Prediction model Markov chain is easy to implement and very lightweight. However, it looks only one step back and is not able to model long-term context (eg. butter -> ham -> cheese). It works well, if the transitions are predictable.
+LSTM is a type of Recurrent Neural Network (RNN) designed to remember information over longer sequences — it solves the “short memory” problem of regular RNNs.
+
+Perfect when the prediction of the next item depends on a sequence, not just the last item.
+
+"If there was yogurt, and earlier cereal, maybe banana is next."
+
+LSTM can learn such patterns.
+
+💡 How it works (super simplified)
+Takes in a sequence of inputs (e.g., ["yogurt", "cereal", "coffee"])
+
+Learns internal "memory" of what's important
+
+Outputs a prediction of what’s next
+
+✅ Pros
+Understands deeper context and sequence trends
+
+Learns from real data
+
+Very flexible and powerful
+
+❌ Cons
+Requires training data (lots of carts!)
+
+Heavier computationally than Markov
+
+More complex to debug
+
+
+
+Purpose	Tool/Framework
+Video input	OpenCV / webcam / OBS
+Object detection	YOLOv8 (Ultralytics)
+Prediction model	Markov Chain or LSTM
+Frontend display	Streamlit / Flask / OBS
+Optional 3D/AR view	Unity + TensorFlow Lite
 
 Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
 If you need to use links, here's an example:
