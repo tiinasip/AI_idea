@@ -1,10 +1,10 @@
 
-# What Comes Next - Conveyor Belt AI Fun
+# What Comes Next - Checkout AI Fun
 
 Final project for the Building AI course
 
 ## Summary
-A camera is capturing a conveyor belt in real-time. The viewer sees more information about the products and also the AI's forecast, what's coming next. Of course the forecast is often wrong, but AI is learning and viewer sees from the screen statistics how it learns. 
+A camera is capturing a conveyor belt at a store's checkout in real-time. The viewer sees more information about the products and also the AI's forecast, what's coming next. The viewer sees from the screen statistics how AI learns. 
 
 The idea combines slow TV and AI. It is oddly relaxing just to watch products moving on the belt, as described here [Livelähetys Prisman kassahihnalta nousi hitiksi](https://www.is.fi/viihde/art-2000005268226.html). On the other hand, AI is a hot topic, but not many understand how it works. 
 
@@ -22,7 +22,7 @@ This is how you make a list, if you need one:
 
 ## How is it used?
 
-Solution is for fun. Users are people who have been interested in other similar shows (Prisma conveyer belt, Norwegian train routes, fireplace videos) and would like to either just watch the screen or also play. The Conveyer Belt Show would give many lively conversation topics at the parties and other gatherings.
+Solution is for fun. Users are people who have been interested in other similar shows (Prisma checkout, Norwegian train routes, fireplace videos) and would like to either just watch the screen or also play. The Checkout AI Fun would give many lively conversation topics at the parties and other gatherings.
 
 The show needs funding. The best solution is to have a sponsor (perhaps the shop in question) in the beginning, and then later add costs for user in game purchases. 
 
@@ -33,6 +33,7 @@ Describe the process of using the solution. In what kind situations is the solut
 
 Images will make your README look nice!
 Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
+![Checkout] ()
 ![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
 
 If you need to resize images, you have to use an HTML tag, like this:
