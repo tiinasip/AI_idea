@@ -6,9 +6,8 @@ Final project for the Building AI course
 ## Summary
 A camera is capturing a conveyor belt at a store's checkout in real-time. The viewer sees more information about the products and also the AI's forecast, what's coming next. The viewer sees from the screen statistics how AI learns. 
 
-The idea combines slow TV and AI. It is oddly relaxing just to watch products moving on the belt, as described here [Livelähetys Prisman kassahihnalta nousi hitiksi](https://www.is.fi/viihde/art-2000005268226.html). On the other hand, AI is a hot topic, but not many understand how it works. 
+The idea combines slow TV and AI. It is oddly relaxing just to watch products moving on the belt, as described here [Livelähetys Prisman kassahihnalta nousi hitiksi](https://www.is.fi/viihde/art-2000005268226.html). On the other hand, AI is a hot topic, but not many understand how it works. This is an opportunity to bring it closer to mass audience.
 
-If developed further, viewers could make own suggestions for better forecast methods and also compete against AI with their own guesses. 
 
 ## Background
 
@@ -103,9 +102,16 @@ Bonus features could be:
 * Shopper profiling (“This looks like a cabin weekend stock-up”)
 * A commentator voice or chatbot (“Next up… yogurt? Suspense builds!”)
 * More than prediction models competing against each other ("Alice is winning Joe today!")
-* Add self-checkout machines or other conveyer belts and compare 
+* Add self-checkout machines or other conveyer belts and compare
+* Viewers could make own suggestions for better forecast methods and also compete against AI with their own guesses. 
 
-This could grow to a community, as groceries are interesting and everyone has some relation to them.
+Checkout viewer could become a community, as groceries and other everyday products are interesting and everyone has some emotions to them or brands. For instance
+* "Who buys beer in the morning?"
+* "You have money to buy a mango but then you buy the cheapest non-delphine friendly tuna!"
+* "There is only meat products!"
+* "There is only veggies, absolutely nothing to eat!"
+* "Why do you buy 5 different sorts of cat food?"
+* "Someone is going to bake!"
 
 If I start the project, I'd need technical and legal advice. There is a risk that no store would start to co-operate. If I had an agreement with the store, I am sure the funding can be found. 
 My technical skills are not on the required level, but finding a technical partner helps. I would need help for marketing as well.
