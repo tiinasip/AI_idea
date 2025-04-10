@@ -4,12 +4,13 @@
 Final project for the Building AI course
 
 ## Summary
-A camera is capturing a conveyor belt at a store's checkout in real-time. The viewer sees more information about the products and also the AI's forecast, what's coming next. The viewer sees from the screen statistics how AI learns. 
+A camera is capturing a conveyor belt at a store's checkout in real-time. The viewer sees more information about the products and also the AI's prediction, what's coming next. The viewer sees from the screen statistics how AI learns. 
 
-The idea combines slow TV and AI. It is oddly relaxing just to watch products moving on the belt, as described here [Livelähetys Prisman kassahihnalta nousi hitiksi](https://www.is.fi/viihde/art-2000005268226.html). On the other hand, AI is a hot topic, but not many understand how it works. This is an opportunity to bring it closer to mass audience.
+The idea combines slow TV and AI. It is oddly relaxing just to watch products moving on the belt, as described here [Livelähetys Prisman kassahihnalta nousi hitiksi](https://www.is.fi/viihde/art-2000005268226.html). On the other hand, AI is a hot topic, but not many understand how it works. This is an opportunity to bring it closer to mass audience and visualize, how the products we buy reveal our attitudes and actions.
 
 
 ## Background
+Solution is for fun. Users are people who have been interested in other similar shows (Prisma checkout, Norwegian train routes, fireplace videos) and would like to either just watch the screen or also play. The Checkout AI Fun would give many lively conversation topics at the parties and other gatherings.
 
 
 
@@ -20,12 +21,11 @@ This is how you make a list, if you need one:
 
 
 ## How is it used?
+Checkout AI Fun is abailable for user in internet. There is a chat environment, where the viewers can participate. Statistic roll on the screen and visualize, how successful AI has been. Based on experiences other live shows (Lintulautalive, Norppalive), many users start the live and have it on during the day on the screen even when they are working.
 
-Solution is for fun. Users are people who have been interested in other similar shows (Prisma checkout, Norwegian train routes, fireplace videos) and would like to either just watch the screen or also play. The Checkout AI Fun would give many lively conversation topics at the parties and other gatherings.
+The creation of Checkout AI Fun needs funding. The best solution is to have a sponsor (perhaps the shop in question) in the beginning, and then later add costs for user in game purchases. 
 
-The show needs funding. The best solution is to have a sponsor (perhaps the shop in question) in the beginning, and then later add costs for user in game purchases. 
-
-Legal issues and especially GDPR is important aspect in game development. Shoppers' data cannot be used without their approval, so the cash station in question needs to have clear signs. Shoppers are not filmed, but it might possible recognize a person by combining the time, location and shopping cart content.
+Legal issues and especially GDPR is important aspect in the solution development. Shoppers' data cannot be used without their approval, so the cash station in question needs to have clear signs. Shoppers are not filmed, but it might possible recognize a person by combining the time, location and shopping cart content.
 
 
 Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
