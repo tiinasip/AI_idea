@@ -36,7 +36,7 @@ Once you upload an image to your repository, you can link link to it like this (
 
 ![Checkout](https://github.com/tiinasip/AI_idea/blob/main/ConveyerBelt.jpg)
 text
-<img src="https://github.com/tiinasip/AI_idea/blob/main/ConveyerBelt.jpg" width="10">
+<img src="https://github.com/tiinasip/AI_idea/blob/main/ConveyerBelt.jpg" width="200">
 
 
 ![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
