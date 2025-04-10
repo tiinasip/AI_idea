@@ -35,6 +35,7 @@ Images will make your README look nice!
 Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
 
 ![Checkout](https://github.com/tiinasip/AI_idea/blob/main/ConveyerBelt.jpg)
+text
 <img src="https://github.com/tiinasip/AI_idea/blob/main/ConveyerBelt.jpg" width="10">
 
 
