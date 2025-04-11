@@ -13,13 +13,6 @@ The idea combines slow TV and AI. It is oddly relaxing just to watch products mo
 Solution is for fun. Users are people who have been interested in other similar shows (Prisma checkout, Norwegian train routes, fireplace videos) and would like to either just watch the screen or also play. The Checkout AI Fun would give many lively conversation topics at the parties and other gatherings.
 
 
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
-
-
 ## How is it used?
 Checkout AI Fun is abailable for user in internet. There is a chat environment, where the viewers can participate. Statistic roll on the screen and visualize, how successful AI has been. Based on experiences other live shows (Lintulautalive, Norppalive), many users start the live and have it on during the day on the screen even when they are working.
 
@@ -27,19 +20,9 @@ The creation of Checkout AI Fun needs funding. The best solution is to have a sp
 
 Legal issues and especially GDPR is important aspect in the solution development. Shoppers' data cannot be used without their approval, so the cash station in question needs to have clear signs. Shoppers are not filmed, but it might possible recognize a person by combining the time, location and shopping cart content.
 
-
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-
 ![Checkout](https://github.com/tiinasip/AI_idea/blob/main/ConveyerBelt.jpg)
 text
 <img src="https://github.com/tiinasip/AI_idea/blob/main/ConveyerBelt.jpg" width="200">
-
-
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
 
 ## Code examples
 A simple code example for detecting objects in an image in Yolo ultralytics:
@@ -73,59 +56,15 @@ def guess_next(previous_item):
 
 
 ## Data sources and AI methods
-
+### Description of the process
 Stream live footage feeds frames to the AI model. The webcam is capturing products from above or the side. Then AI detects items and updates an item list. AI method to be used in detecting is pre-trained models (probably YOLO (You Only Look Once, but also Detectron2, or OpenAI’s CLIP combined with image recognition are possible). When a new item appears, the AI guesses what comes next. For prediction a statistical model (e.g. Markov chains) or a small neural net (if more data is available) is used. All runs on a livestream or recorded video (frontend dispaly is Streamlit, Flask or OBS + Python backend)
 
+### Selected techniques
 YOLO (You Only Look Once) is a fast and accurate real-time object detection, and it is used for live streams or low-latency apps. Models are YOLOv5, YOLOv8 and probably using Ultralytics version to be easier.
 
-Prediction model Markov chain is easy to implement and very lightweight. However, it looks only one step back and is not able to model long-term context (eg. butter -> ham -> cheese). It works well, if the transitions are predictable.
-LSTM is a type of Recurrent Neural Network (RNN) designed to remember information over longer sequences — it solves the “short memory” problem of regular RNNs.
+The selected method for prediction is a small neural network. LSTM is a type of Recurrent Neural Network (RNN) designed to remember information over longer sequences and it solves the short memory problem of regular RNNs. In other words, it is predicting the next item depending on a sequence and learns from real data. However, it requires a lot of training data and more computational resources than easier models.
 
-Perfect when the prediction of the next item depends on a sequence, not just the last item.
-
-"If there was yogurt, and earlier cereal, maybe banana is next."
-
-LSTM can learn such patterns.
-
-💡 How it works (super simplified)
-Takes in a sequence of inputs (e.g., ["yogurt", "cereal", "coffee"])
-
-Learns internal "memory" of what's important
-
-Outputs a prediction of what’s next
-
-✅ Pros
-Understands deeper context and sequence trends
-
-Learns from real data
-
-Very flexible and powerful
-
-❌ Cons
-Requires training data (lots of carts!)
-
-Heavier computationally than Markov
-
-More complex to debug
-
-
-
-Purpose	Tool/Framework
-Video input	OpenCV / webcam / OBS
-Object detection	YOLOv8 (Ultralytics)
-Prediction model	Markov Chain or LSTM
-Frontend display	Streamlit / Flask / OBS
-Optional 3D/AR view	Unity + TensorFlow Lite
-
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
-
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
-
+Another prediction model that was considered was Markov chain, as it would be easy to implement and very lightweight. However, it looks only one step back and is not able to model long-term context (eg. butter -> ham -> cheese). 
 
 
 ## Challenges
@@ -136,10 +75,12 @@ What does your project _not_ solve? Which limitations and ethical considerations
 Bonus features could be:
 * Price estimation (“This belt looks like it’ll cost about €32.50”)
 * Shopper profiling (“This looks like a cabin weekend stock-up”)
+* Combinations ("Those items will end up to apple pie!")
 * A commentator voice or chatbot (“Next up… yogurt? Suspense builds!”)
-* More than prediction models competing against each other ("Alice is winning Joe today!")
-* Add self-checkout machines or other conveyer belts and compare
-* Viewers could make own suggestions for better forecast methods and also compete against AI with their own guesses. 
+* More than prediction models competing against each other ("AI Alice is winning AI Joe today, and you viewers have lost to both of them!")
+* Add self-checkout machines or other cashout conveyer belts and compare
+* Viewers could make own suggestions for better forecast methods and also compete against AI with their own guesses.
+
 
 Checkout viewer could become a community, as groceries and other everyday products are interesting and everyone has some emotions to them or brands. For instance
 * "Who buys beer in the morning?"
@@ -147,10 +88,12 @@ Checkout viewer could become a community, as groceries and other everyday produc
 * "There is only meat products!"
 * "There is only veggies, absolutely nothing to eat!"
 * "Why do you buy 5 different sorts of cat food?"
-* "Someone is going to bake!"
+* "Someone is going to bake, I guess it will be a chocolate cake!"
+
+Items could be also something else than just groceries - maybe a big second-hand-store, a technical store, train traffic etc. Also Optional 3D/AR view	Unity + TensorFlow Lite
 
 If I start the project, I'd need technical and legal advice. There is a risk that no store would start to co-operate. If I had an agreement with the store, I am sure the funding can be found. 
-My technical skills are not on the required level, but finding a technical partner helps. I would need help for marketing as well.
+My technical skills are not on the required level, but finding a technical partner would help. I would need help for marketing as well. 
 
 How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
 
@@ -158,10 +101,11 @@ How could your project grow and become something even more? What kind of skills,
 ## Acknowledgments
 
 * ChatGPT - thanks for your help
-* 
-*
-* list here the sources of inspiration 
-* do not use code, images, data etc. from others without permission
-* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
-  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
-* etc
+* [Livelähetys Prisman kassahihnalta nousi hitiksi](https://www.is.fi/viihde/art-2000005268226.html)
+* My family - thanks for testing the idea with me
+
+Inspiration came also from
+* Lintulautalive
+* Norppalive
+* Slow tv
+* Takkatulivideot
