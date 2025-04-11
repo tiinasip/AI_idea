@@ -33,6 +33,16 @@ The selected method for prediction is a small neural network. LSTM is a type of 
 
 Another prediction model considered was a Markov chain, as it would be easy to implement and very lightweight. However, it looks only one step back and is not able to model long-term context (eg. butter -> ham -> cheese). 
 
+### Statistics
+Statistics part shows the output, prediction and prediction confidence history. 
+1. Output is shown as text: "Apples!"
+2. Prediction is shown as "Next likely item: milk" or in enhanced version top 3 guesses with confidence such as milk - 65%, bread - 20% and butter - 5%.
+3. Prediction confidence history bar shows, how confident the model has been over time.
+
+For fun, there is also an Ai thinking buble commenting. "I've seen bread and butter, I suppose there could be cheese and ham as well.", "Now I am so confused, I just have to make a wild guess - eggs!"
+
+Technically, Pygame is used to create the dashboard, because it works with livestreams and is typically used in games.
+
 ## Code examples
 ### YOLO ultralytics
 A simple code example for detecting objects in an image in Yolo ultralytics:
@@ -68,13 +78,13 @@ def guess_next(previous_item):
 
 ## Challenges
 * GDPR and AI legislation need to be checked before implementation. Privacy may become an issue.
-* Chat needs to be moderated and prevent insults etc. 
+* Chat needs to be moderated. 
 * Technically, the project is possible to implement.
 * Financially, it requires an investor, preferably a store, which would use their marketing budget for this.
 * Although one idea is to spread AI knowledge, most users would not really learn much from Checkout AI Fun. 
 
 ## What next?
-It is easy to develope the idea furhter. Bonus features could be:
+It is easy to develope the idea further. Bonus features could be:
 * Price estimation (“This belt looks like it’ll cost about €32.50”)
 * Shopper profiling (“This looks like a cabin weekend stock-up”)
 * Combinations ("Those items will end up to apple pie!")
