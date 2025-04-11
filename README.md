@@ -4,17 +4,17 @@
 Final project for the Building AI course
 
 ## Summary
-A camera is capturing a conveyor belt at a store's checkout in real-time. The viewer sees more information about the products and also the AI's prediction, what's coming next. The viewer sees from the screen statistics how AI learns. 
-
-The idea combines slow TV and AI. It is oddly relaxing just to watch products moving on the belt, as described here [Livelähetys Prisman kassahihnalta nousi hitiksi](https://www.is.fi/viihde/art-2000005268226.html). On the other hand, AI is a hot topic, but not many understand how it works. This is an opportunity to bring it closer to mass audience and visualize, how the products we buy reveal our attitudes and actions.
-
+A camera is capturing a conveyor belt at a store's checkout in real-time. The viewer sees more information about the products and AI-prediction, what's coming next. The viewer sees from the screen statistics, how AI learns. At the same time, the store and different brands can promote their products and services.
 
 ## Background
-Solution is for fun. Users are people who have been interested in other similar shows (Prisma checkout, Norwegian train routes, fireplace videos) and would like to either just watch the screen or also play. The Checkout AI Fun would give many lively conversation topics at the parties and other gatherings.
+Solution is for fun and marketing & promotion. Users are people who have been interested in other similar shows (Prisma checkout, Norwegian train routes, fireplace videos) and would like to either just watch the screen or participiate. The Checkout AI Fun would give many lively conversation topics at the parties and other gatherings.
 
+The idea combines slow TV and AI. It is oddly relaxing just to watch products moving on the belt, as described here [Livelähetys Prisman kassahihnalta nousi hitiksi](https://www.is.fi/viihde/art-2000005268226.html). On the other hand, AI is a hot topic, but not many understand how it works. This is an opportunity to bring it closer to mass audience and visualize, how the products we buy things from us.
+
+As a marketing tool, it can provide information, show discount codes and suggest recipes. It makes the store's brand modern, playful and fun. If that is the objective of the marketing strategy, Checkout AI Fun is a good investment.
 
 ## How is it used?
-Checkout AI Fun is abailable for user in internet. There is a chat environment, where the viewers can participate. Statistic roll on the screen and visualize, how successful AI has been. Based on experiences other live shows (Lintulautalive, Norppalive), many users start the live and have it on during the day on the screen even when they are working.
+Checkout AI Fun is abailable for user in internet (and perhaps also in the store's app, if that exists). There is a chat environment, where the viewers can participate. Statistics of made predictions roll on the screen and visualize, how successful AI has been. Based on experiences other live shows (Lintulautalive, Norppalive), many users start the live and have it on during the day on the screen even when they are working.
 
 The creation of Checkout AI Fun needs funding. The best solution is to have a sponsor (perhaps the shop in question) in the beginning, and then later add costs for user in game purchases. 
 
@@ -99,13 +99,12 @@ How could your project grow and become something even more? What kind of skills,
 
 
 ## Acknowledgments
-
-* ChatGPT - thanks for your help
+* ChatGPT 
 * [Livelähetys Prisman kassahihnalta nousi hitiksi](https://www.is.fi/viihde/art-2000005268226.html)
 * My family - thanks for testing the idea with me
 
 Inspiration came also from
-* Lintulautalive
-* Norppalive
-* Slow tv
-* Takkatulivideot
+* [Lintulautalive]([https://areena.yle.fi/1-73770995](https://yle.fi/a/74-20146706))
+* [Norppalive](https://wwf.fi/luontolive/norppalive/)
+* [Slow tv](https://en.wikipedia.org/wiki/Slow_television)
+* [An Interpretive Study on the Public's Preference for the Fireplace Videos](https://www.researchgate.net/publication/371228429_An_Interpretive_Study_on_the_Public's_Preference_for_the_Fireplace_Videos)
