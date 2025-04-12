@@ -59,19 +59,59 @@ results = model("checkout.jpg")
 results[0].show()
 ````
 ### LSTM
-A simple code example of predefined item associations:
+A simple code example of predefined item associations. Dataset is prepared by creating shopping sequences and product names are tokenized into numerical sequences thtat the model can learn from:
 ```
-import random
+["bread", "milk", "eggs", "cheese"]
+["beer", "chips", "salsa"]
+["yogurt", "granola", "banana"]
+```
+```
+tokenizer = Tokenizer()
+tokenizer.fit_on_texts(all_sequences)
+```
+Then LSTM is trained. Below you find a simplified example TensorFlow/Keras example:
+```
+from keras.preprocessing.sequence import pad_sequences
+from keras.models import Sequential
+from keras.layers import Embedding, LSTM, Dense
+from keras.preprocessing.text import Tokenizer
 
-next_items = {
-    "coffee": ["milk", "sugar", "pastry"],
-    "banana": ["yogurt", "cereal", "peanut butter"],
-    "beer": ["chips", "sausages", "dip"],
-    # etc...
-}
+# Example training data
+sequences = [["milk", "eggs", "cheese"], ["beer", "chips", "salsa"]]
 
-def guess_next(previous_item):
-    return random.choice(next_items.get(previous_item, ["a surprise!"]))
+# Tokenize
+tokenizer = Tokenizer()
+tokenizer.fit_on_texts(sequences)
+encoded = tokenizer.texts_to_sequences(sequences)
+
+# Create input-output pairs
+X, y = [], []
+for seq in encoded:
+    for i in range(1, len(seq)):
+        X.append(seq[:i])
+        y.append(seq[i])
+
+# Pad sequences
+X = pad_sequences(X)
+y = np.array(y)
+
+# Define model
+model = Sequential()
+model.add(Embedding(input_dim=len(tokenizer.word_index)+1, output_dim=10, input_length=X.shape[1]))
+model.add(LSTM(50))
+model.add(Dense(len(tokenizer.word_index)+1, activation='softmax'))
+
+model.compile(loss='sparse_categorical_crossentropy', optimizer='adam', metrics=['accuracy'])
+model.fit(X, y, epochs=50, verbose=1)
+````
+Predcition example code:
+```
+input_seq = ["milk", "eggs"]
+encoded_input = tokenizer.texts_to_sequences([input_seq])
+padded = pad_sequences(encoded_input, maxlen=X.shape[1])
+predicted = model.predict(padded)
+predicted_word = tokenizer.index_word[np.argmax(predicted)]
+print(f"Predicted next item: {predicted_word}")
 ```
 
 
