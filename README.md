@@ -18,9 +18,8 @@ The creation of Checkout AI Fun needs funding. The best solution is to have a sp
 
 Legal issues and especially GDPR is important aspect in the solution development. Shoppers' data cannot be used without their approval, so the cash station in question needs to have clear signs. Shoppers are not filmed, but it might possible recognize a person by combining the time, location and shopping cart content.
 
-![Checkout](https://github.com/tiinasip/AI_idea/blob/main/ConveyerBelt.jpg)
-text
 <img src="https://github.com/tiinasip/AI_idea/blob/main/Kuva_AI_Fun.jpg" width="200">
+(Picture created with ChatGPT)
 
 ## Data sources and AI methods
 ### Description of the process
