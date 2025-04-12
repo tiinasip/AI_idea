@@ -20,7 +20,7 @@ Legal issues and especially GDPR is important aspect in the solution development
 
 ![Checkout](https://github.com/tiinasip/AI_idea/blob/main/ConveyerBelt.jpg)
 text
-<img src="https://github.com/tiinasip/AI_idea/blob/main/ConveyerBelt.jpg" width="200">
+<img src="https://github.com/tiinasip/AI_idea/blob/main/Kuva_AI_Fun.jpg)" width="200">
 
 ## Data sources and AI methods
 ### Description of the process
