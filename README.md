@@ -149,7 +149,6 @@ My technical skills are currently not at the required level, but finding a techn
 ## Acknowledgments
 * ChatGPT 
 * [Livelähetys Prisman kassahihnalta nousi hitiksi](https://www.is.fi/viihde/art-2000005268226.html)
-* My family - thanks for testing the idea with me
 
 Inspiration came also from
 * [Lintulautalive](https://yle.fi/a/74-20146706)
