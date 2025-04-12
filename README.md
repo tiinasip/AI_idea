@@ -150,7 +150,7 @@ My technical skills are not on the required level, but finding a technical partn
 * My family - thanks for testing the idea with me
 
 Inspiration came also from
-* [Lintulautalive]([https://areena.yle.fi/1-73770995](https://yle.fi/a/74-20146706)
+* [Lintulautalive](https://yle.fi/a/74-20146706)
 * [Norppalive](https://wwf.fi/luontolive/norppalive/)
 * [Slow tv](https://en.wikipedia.org/wiki/Slow_television)
 * [An Interpretive Study on the Public's Preference for the Fireplace Videos](https://www.researchgate.net/publication/371228429_An_Interpretive_Study_on_the_Public's_Preference_for_the_Fireplace_Videos)
