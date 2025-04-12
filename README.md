@@ -69,7 +69,7 @@ A simple code example of predefined item associations. Dataset is prepared by cr
 tokenizer = Tokenizer()
 tokenizer.fit_on_texts(all_sequences)
 ```
-Then LSTM is trained. Below you find a simplified example TensorFlow/Keras example:
+Then LSTM is trained. Below you find a simplified example TensorFlow/Keras example (TensorFlow is open-source machine learning and deep learning framework by Google. Keras is API running on the top of TensorFlow. These are selected to create a prototype, as they are relatively easy to use and are also scalable to production use.)
 ```
 from keras.preprocessing.sequence import pad_sequences
 from keras.models import Sequential
@@ -113,8 +113,6 @@ predicted = model.predict(padded)
 predicted_word = tokenizer.index_word[np.argmax(predicted)]
 print(f"Predicted next item: {predicted_word}")
 ```
-
-
 
 ## Challenges
 * GDPR and AI legislation need to be checked before implementation. Privacy may become an issue.
