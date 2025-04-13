@@ -1,0 +1,156 @@
+<!-- This is the markdown template for the final project of the Building AI course, 
+created by Reaktor Innovations and University of Helsinki. 
+Copy the template, paste it to your GitHub README and edit! -->
+
+# Recycle information fo
+
+Final project for the Building AI course
+
+## Summary
+
+Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
+
+
+## Background
+
+Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
+
+This is how you make a list, if you need one:
+* problem 1
+* problem 2
+* etc.
+
+
+## How is it used?
+
+Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
+
+Images will make your README look nice!
+Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
+![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
+
+If you need to resize images, you have to use an HTML tag, like this:
+<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
+
+This is how you create code examples:
+```
+def main():
+   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
+   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
+   fishers = [1891, 2652, 3800, 11611, 1757]
+
+   totPop = sum(pop)
+   totFish = sum(fishers)
+
+   # write your solution here
+
+   for i in range(len(countries)):
+      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
+
+main()
+```
+
+
+## Data sources and AI methods
+Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
+If you need to use links, here's an example:
+[Twitter API](https://developer.twitter.com/en/docs)
+
+| Syntax      | Description |
+| ----------- | ----------- |
+| Header      | Title       |
+| Paragraph   | Text        |
+
+## Challenges
+
+What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+
+## What next?
+
+How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
+
+
+## Acknowledgments
+
+* list here the sources of inspiration 
+* do not use code, images, data etc. from others without permission
+* when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
+  <br>For example: [Sleeping Cat on Her Back by Umberto Salvagnin](https://commons.wikimedia.org/wiki/File:Sleeping_cat_on_her_back.jpg#filelinks) / [CC BY 2.0](https://creativecommons.org/licenses/by/2.0)
+* etc
+view rawBuilding AI README template hosted with ❤ by GitHub
+You can copy the content from the template and paste it to your README:
+
+edit repo
+Instructions
+
+Edit the README
+Click the pen symbol to start editing
+Write about your project
+Save the README by clicking ‘Commit changes’
+NOTE: you can edit your project description freely but please make sure it contains the following:
+
+A heading called Summary (created in markdown like this: ##Summary)
+A short description text (about 250 characters) under Summary
+The words “Building AI course project” - for example right under the Project title or at the end of the Summary
+Some formatting, for example headings: Tags # and ## are used to create headings – you can keep the example headings to create structure on the README
+
+Adding images
+Create a clear picture of your project with images like charts, screenshots or photos. To add files, go to the start of your project repository.
+
+upload files
+After adding files, you need to commit the changes:
+
+commit to repo
+When you perform a commit, you are saving the current state of the project repository. This way you can go back in history, see the changes made to any of your project files, and reset the project to a previous state if needed. When collaborating with others, this is an essential feature.
+
+To add images to your README, you need to:
+
+Link to an image you’ve uploaded to your repository like this:
+
+![image of a cat](/cat_image.jpg)
+Or link to an online image:
+
+![image of an online cat](https://tinyurl.com/elementsofaicat)
+Remember to use only images you own the copyright to or which are published with a Creative Commons license. For example the online image in the example is called Sleeping Cat on Her Back by Umberto Salvagnin / CC BY 2.0
+
+More formatting options
+There are a lot of different ways to format the content in a README with markdown. Check out these manuals in GitHub for further ideas:
+
+Mastering markdown
+Markdown cheatsheet
+How about adding some code?
+If you are familiar with coding, consider forking the repository of an interesting, open source AI project. This is a nice way to start experimenting, even if you’re not very experienced with coding. It’s a good practice to only fork repositories that have been licensed as open source. Technically you can fork any public repositories, but you can’t build your work on them without the license.
+
+As soon as you add code to the mix, you’ll need to use some desktop tools as well. In practice, you’ll write and edit code on your computer using a code editor of your choice, then push the changes you make to your GitHub repository using some Git magic. If it’s all new to you, don’t worry – you’ll learn it by doing it. Here’s a good tutorial to get you started: Git Handbook
+
+Your project
+Go to the main page of your AI project in GitHub. You’re on the main page if the address is in this format: https://github.com/username/repo-name
+Copy the address of the repository and paste it into the text field below.
+Press the 'Submit' button.
+After submitting the repository:
+Give peer reviews to three other projects
+Your project is accepted when you have given and received enough peer reviews.
+Note: GitHub repositories submitted as Building AI course projects may be showcased by Reaktor and University of Helsinki when we communicate about the course in different contexts. Your work will always be presented in a positive light. The copyright of your work will always remain yours. Do not share the work of others without a license to do so. By submitting the link to your project you acknowledge you are legally responsible for any material your project contains. Read more in our Terms and Conditions section
+
+https://github.com/tiinasip/AI_idea
+Pending peer reviews
+Received peer reviews:
+Your answer has received 1 peer reviews. The average grade of received reviews is 0
+
+Show all received peer reviews
+Next section
+
+III. AI Idea Gallery
+
+Please join the Elements of AI community to discuss this chapter!
+
+Introduction to AI
+Building AI
+About
+FAQ
+Privacy Policy
+Terms and Conditions
+My Profile
+Sign out
+MinnaLearn logo
+University of Helsinki logo
