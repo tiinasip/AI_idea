@@ -2,6 +2,8 @@
 Final project for the Building AI course
 
 ## Summary
+The idea is to combine information sharing, AI learning and better marketing. The world is full of marketing that is not really connected to anything and it is coming to users at wrong time annoying them. This idea creates a community (emotional engagement), AI learning (how it predicts), marketing and product information.
+
 A camera captures a store's chechout conveyor belt in real-time. Viewers can see additional information about the products, along with AI-powered predictions of what might appear next. The screen also displays statistics showing how AI is learning over time. At the same time, information about the heatlhiness is shared and the store and various brands can promote their products and services through the platform and viewers have possibility to do better choices when shopping. 
 
 Watching is an option for doom-scrolling and for relaxing with endless TV series. However, viewers are still connected to real world - they see real shopping carts and can find emotional connection to the community. 
