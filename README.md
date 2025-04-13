@@ -4,7 +4,7 @@ Final project for the Building AI course
 ## Summary
 Is the local school being shut? Where will budget cuts hit? Which political party advocated for which policies in your neighborhood? Residents rarely have timely access to information about upcoming changes especially between elections. 
 
-This application collects data from local government documents and generates summaries and predictions. 
+This application collects data from local government documents and generates summaries and predictions. An example of prediction: "The municipality is running a significant budget deficit. Most of its funds are allocated to education and early childhood services, and increasing class sizes has already been discussed. Raising class sizes now appears likely." 
 
 ## Background
 Local government operations often remain hidden from public view, and residents typically only hear about them through occasional local media coverage. As a result, voters may not fully understand which responsibilities fall under municipal control and which do not.
