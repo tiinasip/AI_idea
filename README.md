@@ -1,20 +1,24 @@
-# What Comes Next - Checkout AI Fun
+# What Comes Next - Checkout AI Fun and information
 Final project for the Building AI course
 
 ## Summary
-A camera captures a store's chechout conveyor belt in real-time. Viewers can see additional information about the products, along with AI-powered predictions of what might appear next. The screen also displays statistics showing how AI is learning over time. At the same time, the store and various brands can promote their products and services through the platform.
+A camera captures a store's chechout conveyor belt in real-time. Viewers can see additional information about the products, along with AI-powered predictions of what might appear next. The screen also displays statistics showing how AI is learning over time. At the same time, information about the heatlhiness is shared and the store and various brands can promote their products and services through the platform and viewers have possibility to do better choices when shopping. 
+
+Watching is an option for doom-scrolling and for relaxing with endless TV series. However, viewers are still connected to real world - they see real shopping carts and can find emotional connection to the community. 
 
 ## Background
-The solution is designed for both entertainment and marketing purposes. The target audience includes people who have enjoyed similar streams - such as Prisma checkout, Norwegian train routes, fireplace videos - and who either enjoy passive viewing or want to actively participate. Checkout AI Fun offers unique and engaging conversion starters for social events, parties or casual gatherings.
+The solution is designed for entertainment, information sharing and marketing purposes. For instance, many people do not know how to select climate-friendly or healthy products. The target audience includes people who have enjoyed similar streams - such as Prisma checkout, Norwegian train routes, fireplace videos - and who either enjoy passive viewing or want to actively participate. Checkout AI Fun also offers unique and engaging conversion starters for social events, parties or casual gatherings.
 
 The concept combines slow TV with artificial intelligence. There is something oddly relaxing about watching products move along a conveyer belt - as noted in this article [Livelähetys Prisman kassahihnalta nousi hitiksi](https://www.is.fi/viihde/art-2000005268226.html). At the same time, AI is a trending topic, yet still not widely understood. This project offers a chance to bring AI closer to a mainstream audience by visualizing how it "learns" from everyday behaviour - like the items we purchase.
 
-As a marketing tool, the platform can highlight product invormation, share discount codes and suggest recipe ideas. It positions the store's brand as modern, playful and forward-thinking. If those qualities align with the marketing strategy, Checkout AI Fun is a smart and timely investment.
+The background information can tell facts about the products. For instance, "carrots are now at their best and very affordable. They are possible to add almos all meals." 
+
+As a marketing tool, the platform can highlight product invormation, share discount codes and suggest recipe ideas. 
 
 ## How is it used?
 Checkout AI Fun is abailable to users online and potentially also through the store's app. There is an interactive chat environment where viewers can participate in real time. Statistics of AI's predictions are displayed on the screen, visualizing how successful the AI model has been. Based on experiences from other popular live streams (Lintulautalive, Norppalive), many users keep the stream running throughout the day, even while working.
 
-The development of Checkout AI Fun requires funding. Ideally, a sponsor - preferably the store itself - could support the initial laucnh, with later monetization through in-game purchases or user contributions.
+The development of Checkout AI Fun requires funding. Ideally, a sponsor - preferably the store itself - could support the initial launch, with later monetization through in-game purchases or user contributions.
 
 Legal considerations - especially regarding GDPR - are a key part of the development process. Shoppers' data cannot be used without their consent, so clear signage is required at the checkout area. Shoppers are not filmed, but it might possible identify individuals by combining time, location and shopping cart content.
 
@@ -40,7 +44,7 @@ Dashboard on the screen shows the output, prediction and prediction confidence h
 2. Prediction is shown as "Next likely item: milk" or in an enhanced version top 3 guesses with confidence such as milk - 65%, bread - 20% and butter - 5%.
 3. Prediction confidence history bar shows, how confident the model has been over time.
 
-For entertainment, there is also an Ai thinking buble commenting. "I've seen bread and butter, I suppose there could be cheese and ham as well.", "Now I am so confused, I just have to make a wild guess - eggs!"
+For entertainment, there is also an Ai thinking buble commenting. "I've seen bread and butter, I suppose there could be cheese and ham as well.", "Now I am so confused, I just have to make a wild guess - eggs!" This buble would show also facts about nutrition.
 
 Technically, Pygame is used to create the dashboard because it supports livestreams and is typically used in games.
 
