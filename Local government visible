@@ -1,77 +1,39 @@
-<!-- This is the markdown template for the final project of the Building AI course, 
-created by Reaktor Innovations and University of Helsinki. 
-Copy the template, paste it to your GitHub README and edit! -->
-
-# Recycle information fo
-
+# Local government visible
 Final project for the Building AI course
 
 ## Summary
+Is the local school being shut? Where will budget cuts hit? Which political party advocated for which policies in your neighborhood? Residents rarely have timely access to information about upcoming changes especially between elections. 
 
-Describe briefly in 2-3 sentences what your project is about. About 250 characters is a nice length! 
-
+This application collects data from local government documents and generates summaries and predictions. 
 
 ## Background
+Local government operations often remain hidden from public view, and residents typically only hear about them through occasional local media coverage. As a result, voters may not fully understand which responsibilities fall under municipal control and which do not.
 
-Which problems does your idea solve? How common or frequent is this problem? What is your personal motivation? Why is this topic important or interesting?
-
-This is how you make a list, if you need one:
-* problem 1
-* problem 2
-* etc.
-
+This tool enables users to follow and better understand the workings of their municipal government. Users are able to ask questions from local government and, on the other hand, local government learns to make decisions clearer when they know they will be closely followed.
 
 ## How is it used?
+The user visits a website and selects their municipality. Additional filters are available, such as environmental issues, financial situation, schools, daycare centers, and the compensation of elected officials. Upon requesting the current status, the user receives an overview of ongoing matters either related to their selected interests or a general municipal update.
 
-Describe the process of using the solution. In what kind situations is the solution needed (environment, time, etc.)? Who are the users, what kinds of needs should be taken into account?
-
-Images will make your README look nice!
-Once you upload an image to your repository, you can link link to it like this (replace the URL with file path, if you've uploaded an image to Github.)
-![Cat](https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg)
-
-If you need to resize images, you have to use an HTML tag, like this:
-<img src="https://upload.wikimedia.org/wikipedia/commons/5/5e/Sleeping_cat_on_her_back.jpg" width="300">
-
-This is how you create code examples:
-```
-def main():
-   countries = ['Denmark', 'Finland', 'Iceland', 'Norway', 'Sweden']
-   pop = [5615000, 5439000, 324000, 5080000, 9609000]   # not actually needed in this exercise...
-   fishers = [1891, 2652, 3800, 11611, 1757]
-
-   totPop = sum(pop)
-   totFish = sum(fishers)
-
-   # write your solution here
-
-   for i in range(len(countries)):
-      print("%s %.2f%%" % (countries[i], 100.0))    # current just prints 100%
-
-main()
-```
-
+Anyone interested is a potential user.
 
 ## Data sources and AI methods
-Where does your data come from? Do you collect it yourself or do you use data collected by someone else?
-If you need to use links, here's an example:
-[Twitter API](https://developer.twitter.com/en/docs)
-
-| Syntax      | Description |
-| ----------- | ----------- |
-| Header      | Title       |
-| Paragraph   | Text        |
+Local government documents are public and already available online. The tool is trained to locate and retrieve these sources. It also gathers information on local political power structures and appointed officials.
+The interface has two parts: first, the user selects their municipality and areas of interest. Then, they can interact with the data through a chat interface powered by AI, similar to ChatGPT.
 
 ## Challenges
-
-What does your project _not_ solve? Which limitations and ethical considerations should be taken into account when deploying a solution like this?
+Government documents are complex and may be misinterpreted by both the AI and the user. The solution must provide clear source references so users can verify the information.
+Additionally, the system may highlight individual officials. If this occurs in the context of misunderstood data, it could lead to inappropriate contact with those individuals.
 
 ## What next?
+If I decide to start the project, I would need technical and legal advice. 
 
-How could your project grow and become something even more? What kind of skills, what kind of assistance would you  need to move on? 
-
+My technical skills are currently not at the required level, but finding a technical partner is feasible. I would also need assistance with promoting the idea and of course I need funding. 
 
 ## Acknowledgments
-
+* ChatGPT 
+* [Livelähetys Prisman kassahihnalta nousi hitiksi](https://www.is.fi/viihde/art-2000005268226.html)
+*[Kuntalaisten osallisuus](https://kansalaisyhteiskunta.fi/tietopankki/kuntalaisten-osallisuus-ja-kuuleminen-kunnan-paatoksenteossa/)
+*[Kunnan verkkotiedottaminen](https://www.kuntaliitto.fi/yleiskirjeet/2017/kunnan-verkkotiedottaminen-seka-henkilotietojen-kasittely-ja-julkisuus-kuntalain)
 * list here the sources of inspiration 
 * do not use code, images, data etc. from others without permission
 * when you have permission to use other people's materials, always mention the original creator and the open source / Creative Commons licence they've used
