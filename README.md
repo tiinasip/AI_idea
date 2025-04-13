@@ -17,8 +17,9 @@ The user visits a website and selects their municipality. Additional filters are
 Anyone interested is a potential user. 
 
 ## Data sources and AI methods
-Local government documents are public and already available online (for instance [here](https://paatokset.hel.fi/fi/paattajat/kaupunginhallitus/asiakirjat). The tool is trained to locate and retrieve these sources. It also gathers information on local political power structures and appointed officials.
-The interface has two parts: first, the user selects their municipality and areas of interest. Then, they can interact with the data through a chat interface powered by AI, similar to ChatGPT. 
+Local government documents are public and already available online (for instance [here](https://paatokset.hel.fi/fi/paattajat/kaupunginhallitus/asiakirjat)). The tool is trained to locate and retrieve these sources. It also gathers information on local political power structures and appointed officials (for instance [here](https://www.hel.fi/fi/paatoksenteko-ja-hallinto/kaupungin-organisaatio/kaupungin-organisaatiokaavio)).
+
+The user interface has two parts: first, the user selects their municipality and areas of interest. Then, they can interact with the data through a chat interface powered by AI, similar to ChatGPT. 
 
 AI techiniques used in the application:
 * Natual Language Processing NLP 
@@ -39,6 +40,6 @@ If I decide to start the project, I would need technical and legal advice.
 My technical skills are currently not at the required level, but finding a technical partner is feasible. I would also need assistance with promoting the idea and of course I need funding. 
 
 ## Acknowledgments
-*ChatGPT
-*[Kuntalaisten osallisuus](https://kansalaisyhteiskunta.fi/tietopankki/kuntalaisten-osallisuus-ja-kuuleminen-kunnan-paatoksenteossa/)
-*[Kunnan verkkotiedottaminen](https://www.kuntaliitto.fi/yleiskirjeet/2017/kunnan-verkkotiedottaminen-seka-henkilotietojen-kasittely-ja-julkisuus-kuntalain)
+* ChatGPT
+* [Kuntalaisten osallisuus](https://kansalaisyhteiskunta.fi/tietopankki/kuntalaisten-osallisuus-ja-kuuleminen-kunnan-paatoksenteossa/)
+* [Kunnan verkkotiedottaminen](https://www.kuntaliitto.fi/yleiskirjeet/2017/kunnan-verkkotiedottaminen-seka-henkilotietojen-kasittely-ja-julkisuus-kuntalain)
