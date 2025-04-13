@@ -39,5 +39,6 @@ If I decide to start the project, I would need technical and legal advice.
 My technical skills are currently not at the required level, but finding a technical partner is feasible. I would also need assistance with promoting the idea and of course I need funding. 
 
 ## Acknowledgments
+*ChatGPT
 *[Kuntalaisten osallisuus](https://kansalaisyhteiskunta.fi/tietopankki/kuntalaisten-osallisuus-ja-kuuleminen-kunnan-paatoksenteossa/)
 *[Kunnan verkkotiedottaminen](https://www.kuntaliitto.fi/yleiskirjeet/2017/kunnan-verkkotiedottaminen-seka-henkilotietojen-kasittely-ja-julkisuus-kuntalain)
