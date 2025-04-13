@@ -18,7 +18,7 @@ Anyone interested is a potential user.
 
 ## Data sources and AI methods
 Local government documents are public and already available online. The tool is trained to locate and retrieve these sources. It also gathers information on local political power structures and appointed officials.
-The interface has two parts: first, the user selects their municipality and areas of interest. Then, they can interact with the data through a chat interface powered by AI, similar to ChatGPT.
+The interface has two parts: first, the user selects their municipality and areas of interest. Then, they can interact with the data through a chat interface powered by AI, similar to ChatGPT. 
 
 AI techiniques used in the application:
 * Natual Language Processing NLP 
