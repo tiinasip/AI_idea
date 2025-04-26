@@ -7,9 +7,9 @@ Is the local school being shut? Where is a new housing development being zoned? 
 This application collects data from local government documents and generates summaries and predictions. An example of prediction: "The municipality is running a significant budget deficit. Most of its funds are allocated to education and early childhood services, and increasing class sizes has already been discussed. Raising class sizes now appears likely. Also the elementary school in Pikkupohja is probably going to be closed, as the number of pupils is already very low." 
 
 ## Background
-Local government operations often remain hidden from public view, and residents typically only hear about them through occasional local media coverage. As a result, voters may not fully understand which responsibilities fall under municipal control and which do not.
+Local government operations often remain hidden from public view, and residents typically only hear about them through occasional local media coverage. As a result, voters may not fully understand which responsibilities fall under municipal control and which do not. Also local media is often partly connected to a certain political party, and locally it can be challenging to find information from truly objective point of view.
 
-The tool enables users to follow and better understand the workings of their municipal government. Users are able to gather the information and be able then question the local government and, on the other hand, local government learns to make decisions clearer when they know they will be closely followed.
+The tool enables users to follow and better understand the workings of their municipal government. Users are able to gather the information and be able then question the local government and, on the other hand, local government learns to make decisions clearer when they know they will be closely followed. Users are also able to create groups and find common interests.
 
 The tool promotes local democracy and openness.
 
